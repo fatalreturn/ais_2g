@@ -22,9 +22,9 @@ public class FrontServlet extends HttpServlet{
 
 			ApplicationController app =new WebApplicationController();
 
-			RequestContext reqc =app.getRequest(req);//繝ｪ繧ｯ繧ｨ繧ｹ繝域ュ蝣ｱ險ｭ螳�
+			RequestContext reqc =app.getRequest(req);//郢晢ｽｪ郢ｧ�ｽｯ郢ｧ�ｽｨ郢ｧ�ｽｹ郢晏沺繝･陜｣�ｽｱ髫ｪ�ｽｭ陞ｳ�ｿｽ
 
-			ResponseContext resc = app.handleRequest(reqc);//蜃ｦ逅�
+			ResponseContext resc = app.handleRequest(reqc);//陷�ｽｦ騾��ｿｽ
 
 			resc.setResponse(res);
 
